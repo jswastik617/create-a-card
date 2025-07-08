@@ -1,1 +1,1 @@
-Thia is my first work as a combination of HTML and CSS.
+Thia is my first work using the combination of HTML and CSS.
