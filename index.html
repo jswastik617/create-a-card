@@ -6,38 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             background-color: gray;
+            cursor: default;
         }
-        .Parent{
+
+        .Parent {
             background-color: antiquewhite;
             width: 240px;
             border-radius: 10px;
+            height: 440px;
         }
-        img{
+
+        img {
             padding: 5px;
-            border-radius: 10px
+            border-radius: 10px;
+            cursor: pointer;
         }
-        .capsule{
-            
-            padding:0px 34px;
-            
+
+        .capsule {
+
+            padding: 0px 34px;
+
         }
-        .capsule span{
-            border: 1px solid grey;
+
+        .capsule span {
+            border: 1px solid rgb(216, 214, 214);
             border-radius: 7px;
             padding: 5px;
             font-size: 12px;
+            cursor: pointer;
         }
-        h2{
+
+        .capsule span:hover {
+            background-color: rgb(86, 129, 247);
+            border-radius: 10px;
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 3px 3px;
+
+            transition: all 0.2s ease;
+        }
+
+        h2 {
             text-align: center;
         }
-        p{
+
+        p {
             text-align: center;
         }
-        .Ram{
+
+        .Ram {
             text-align: center;
-            border:px solid;
+            border: px solid;
             margin-left: 30%;
             margin-right: 30%;
             border-radius: 20px;
@@ -46,9 +67,18 @@
             font-size: 12px;
             padding: 2px;
             margin: bottom 10px;
+            cursor: pointer;
         }
-        
-        
+
+        .Ram:hover {
+            background-color: rgb(86, 129, 247);
+            border-radius: 10px;
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 3px 3px;
+
+            transition: all 0.2s ease;
+        }
     </style>
 </head>
 
@@ -58,17 +88,17 @@
             <img width="230px" src="photo-1520209759809-a9bcb6cb3241.jpg">
         </div>
         <div class="capsule">
-        <span>Nature</span>
-        <span>Lake</span>
+            <span>Nature</span>
+            <span>Lake</span>
         </div>
         <h2>Travelling Agency</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dignissimos, ducimus natus deleniti, quidem
             necessitatibus sint sed reiciendis fuga temporibus sequi perferendis dolorem!</p>
-            <div class="Ram">
-        <span>
-            Read More
-        </span>
-    </div>
+        <div class="Ram">
+            <span>
+                Read More
+            </span>
+        </div>
     </div>
 </body>
 
